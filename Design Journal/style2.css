@@ -1,0 +1,20 @@
+html, 
+body {
+  margin: 0;
+  padding: 10;
+  
+}
+
+
+.ClickImage{
+    
+    background-size:cover;
+    display:inline-block;
+    border: radius 20px;
+    margin:5px;
+    box-shadow:0px 0px 10px rgb(254, 254, 255);
+    
+  }
+  
+ 
+ 
