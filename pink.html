@@ -3,17 +3,16 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-        <a href="Curious.jpg" class="textOverImage" 
-        style="background-image:url(Curious.jpg)" 
-        data-title="Autumn Day" 
-        data-text="  This photo is very creepy to me. 
-        The only source of light here is from the train window.
-        It is a very dim and mysterious picture. Only one side of his face is lit
-        and the rest seem to fade away. The dark lighting gives a scary feel
-        or the man is dangerous.  ">
+        <a href="pink.jpg" class="textOverImage" 
+        style="background-image:url(pink.jpg)" 
+        data-title="Noh Theater" 
+        data-text=" My friend took this picture at Mass Moca. I love the pink, purple, and white.
+        I like the lights bounce of the walls and floor illuminating the whole room. This reminded me
+        of Phoebes color music project. Phoebes group had a neon pink in their piece. The lighing sets a night life
+        tone. Or something exciting is going to happen. ">
     </a>
 
-    <img src="Curious.jpg">
+    <img src="pink.jpg">
 
 
 
@@ -21,13 +20,19 @@
     img {
         float: right ;
         display: block;
-        width: 690px;
-        height: 680px;
-        background-size: 100%; 
+        position: fixed;
+        width: 590px;
+        height: 590px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
         background-position: center;
-    }
+        box-shadow:0 0 4px #000;
+        border-radius:0px;
+  }
+    
 body{
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
 a{text-decoration:none;}
 /*Add the following compatibility code for IE as you can't animate background-size in IE*/
@@ -38,8 +43,8 @@ a{text-decoration:none;}
     
     display: block;
     position: fixed;
-    width:690px;
-    height:690px;
+    width:590px;
+    height:590px;
     float: left;
     margin-left: auto;
     margin-right: auto;
