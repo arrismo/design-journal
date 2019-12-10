@@ -48,7 +48,7 @@ button:hover:after {
 }
 
 h1 {
-  color: rgb(0, 0, 0);
+  color: white;
   font-family: "Nanum Brush Script", cursive;
   font-size: 200px;
   position: relative;
@@ -56,10 +56,10 @@ h1 {
   left: 10px;
 }
 
-h2 {
+p {
   color: white;
   font-family: "Nanum Brush Script", cursive;
-  font-size: 200px;
+  font-size: 50px;
   position: relative;
 }
 
