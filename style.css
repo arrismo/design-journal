@@ -1,67 +1,72 @@
-
-body{
-    text-align:center;
-    
-  }
-body:before{
-    content:'';
-    height:100%;
-    display:inline-block;
-    vertical-align:middle;
-  }
+body {
+  text-align: center;
+}
+body:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
 
 .button {
-    background:rgb(43, 42, 42);
-    color:#fff;
-    border:none;
-    position:relative;
-    height:60px;
-    font-size:1.6em;
-    padding:0 2em;
-    cursor:pointer;
-    transition:800ms ease all;
-    outline:none;
-    }
-    button:hover{
-        background:#fff;
-        color:rgb(43, 42, 42);
-      }
-      button:before,button:after{
-        content:'';
-        position:absolute;
-        top:0;
-        right:0;
-        height:4px;
-        width:0;
-        background:rgb(43, 42, 42);
-        transition:400ms ease all;
-      }
-      button:after{
-        right:inherit;
-        top:inherit;
-        left:0;
-        bottom:0;
-      }
-      button:hover:before,button:hover:after{
-        width:100%;
-        transition:800ms ease all;
-      }
+  background: rgb(43, 42, 42);
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+button:hover {
+  background: #fff;
+  color: rgb(43, 42, 42);
+}
+button:before,
+button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 4px;
+  width: 0;
+  background: rgb(43, 42, 42);
+  transition: 400ms ease all;
+}
+button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+button:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
 
-    h1 {
-        color: rgb(0, 0, 0);
-        font-family: 'Nanum Brush Script', cursive;
-        font-size: 200px;
-        position: relative;
-        top: -90px;
-        left: 10px;
-    }
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 200px;
+  position: relative;
+  top: -90px;
+  left: 10px;
+}
 
-   body {
-        background-image: url("design_image.jpg.jpg");
-       background-size: cover;
-       background-position: center;
-       height: auto;
-       max-width:100%;
-       overflow: hidden;
-    }
-    
+p {
+  color: black;
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 200px;
+}
+
+body {
+  background-image: url("design_image.jpg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+}
