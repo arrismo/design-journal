@@ -57,9 +57,10 @@ h1 {
 }
 
 p {
-  color: black;
+  color: white;
   font-family: "Nanum Brush Script", cursive;
   font-size: 200px;
+  position: relative;
 }
 
 body {
